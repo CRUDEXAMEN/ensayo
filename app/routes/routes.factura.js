@@ -3,10 +3,10 @@ import { crearFactura, eliminarFactura, listarFactura, modificarFactura, mostrar
 
 const rutaFactura = Router();
 
-rutaFactura.get("/factura/id", mostrarFactura);
+rutaFactura.get("/factura/:id", mostrarFactura);
 rutaFactura.get("/factura", listarFactura);
-rutaFactura.put("/factura", crearFactura);
-rutaFactura.post("/factura", modificarFactura);
+rutaFactura.post("/factura", crearFactura);
+rutaFactura.put("/factura", modificarFactura);
 rutaFactura.delete("/factura", eliminarFactura);
 
 export default rutaFactura;
