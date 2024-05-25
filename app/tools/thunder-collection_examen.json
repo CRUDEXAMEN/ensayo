@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "examen",
+    "collectionId": "4c75a343-3203-4d04-962f-ff189cd2283c",
+    "dateExported": "2024-05-25T03:33:23.939Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e9e8e4ae-b148-46c2-81c2-64393e6555b7",
+            "colId": "4c75a343-3203-4d04-962f-ff189cd2283c",
+            "containerId": "",
+            "name": "mostrar",
+            "url": "http://localhost:3000/api/factura/2",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-25T01:09:39.924Z",
+            "modified": "2024-05-25T02:31:41.472Z",
+            "headers": []
+        },
+        {
+            "_id": "559a3625-73a4-46ae-a612-2f111571ff72",
+            "colId": "4c75a343-3203-4d04-962f-ff189cd2283c",
+            "containerId": "",
+            "name": "listar",
+            "url": "localhost:3000/api/factura",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-25T01:10:00.812Z",
+            "modified": "2024-05-25T01:12:25.000Z",
+            "headers": []
+        },
+        {
+            "_id": "c91dab5e-1c6c-42f4-85e4-10f042f29485",
+            "colId": "4c75a343-3203-4d04-962f-ff189cd2283c",
+            "containerId": "",
+            "name": "crear",
+            "url": "http://localhost:3000/api/factura",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-25T01:10:06.133Z",
+            "modified": "2024-05-25T03:04:28.547Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"vicky\",\n  \"total\":\"7800\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "39481b9f-fe16-4a25-abad-b559fe7d903f",
+            "colId": "4c75a343-3203-4d04-962f-ff189cd2283c",
+            "containerId": "",
+            "name": "modificar",
+            "url": "localhost:3000/api/factura",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-05-25T01:10:18.812Z",
+            "modified": "2024-05-25T03:15:58.477Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":1,\n  \"nombre\":\"sebastian\",\n  \"total\":\"9000000\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0925a2d6-4d46-4b8f-acb6-fdbcce99e188",
+            "colId": "4c75a343-3203-4d04-962f-ff189cd2283c",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "localhost:3000/api/factura",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-25T01:10:26.375Z",
+            "modified": "2024-05-25T03:23:30.997Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":2\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "heQ5nOg_xtYsQW7Mu3UZAkTJzoGpG0rwlDzWSvJ8S6-AWV8j_uGeVpMFsURlZ7_Se-70X53VRKcuW3AeOnImjA"
+}
