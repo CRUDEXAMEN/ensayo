@@ -51,7 +51,6 @@ export const modificarFactura = async(req, res) =>{
 }
 
 export const eliminarFactura = async(req, res) =>{
-    console.log("funciona");
     let id = req.body.id;
     try {
         const respuesta = await pool.query(`CALL sp_EliminarFactura	(${id}); `);
